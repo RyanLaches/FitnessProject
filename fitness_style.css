@@ -1,0 +1,19 @@
+/* Basic CSS Stylesheet Template */
+
+/* CSS RESET */
+body, header, footer, h1, h2, h3, {
+  margin: 0;
+  padding: 0;
+  border: 0;
+	section: 0;
+	article: 0;
+	aside: 0; 
+}
+
+table, th, td {
+    border: 2px outset black;
+}
+
+td:hover {
+    background-color: rgba(0, 0, 0, 0.391);
+}

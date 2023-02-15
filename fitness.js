@@ -1,1 +1,2 @@
-'use script'
+
+/* FITNESS PROJECT JAVASCRIPT FILE */
