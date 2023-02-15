@@ -2,13 +2,10 @@
 /* FITNESS PROJECT JAVASCRIPT FILE */
 const cells = document.querySelectorAll('.tableCell');
 
-let lastCell;
-
 for(let cell of cells){
     cell.addEventListener('click', () => {
         if(document.getElementById('inputBox')){
             document.getElementById('inputBox').remove();
-            lastCell.style.backgroundColor = 'white';
         }
         const div = document.createElement('div');
         div.id = 'inputBox'
