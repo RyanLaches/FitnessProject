@@ -1,4 +1,3 @@
-
 /* FITNESS PROJECT JAVASCRIPT FILE */
 const cells = document.querySelectorAll('.tableCell');
 
