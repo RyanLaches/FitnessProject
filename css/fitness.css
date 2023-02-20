@@ -73,6 +73,7 @@ main {
   background-color: rgba(60,60,60, 0.452);
   width: 1200px;
   padding: 0px 0px 24px 0px;
+  margin: auto;
 }
 
 table {
