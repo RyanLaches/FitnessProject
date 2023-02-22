@@ -27,3 +27,12 @@ function addDivContent(div, cell){
     div.appendChild(textInput);
     div.appendChild(submitButton);
 }
+
+document.getElementById('print').addEventListener('click', () => {
+   window.print(); 
+});
+document.getElementById('clear').addEventListener('click', () => {
+    for(let cell of cells){
+        cell.textContent = '';
+    }
+});
